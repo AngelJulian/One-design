@@ -1,0 +1,437 @@
+*{
+	padding: 0;
+	margin: 0;
+	align-content: center;
+}
+body{
+	margin: 0 auto;
+	padding:0 100px 0 180px;
+	background-color:#6666ff;
+}
+.container{
+	background-color: #fff;
+	width:1000px;
+	height:650px;
+	margin:0;
+}
+.header{
+	padding: 30px 30px 0 30px;
+	margin:0 auto;
+	
+}
+.display{
+	float:left;
+	width:90px;
+	margin-top:25px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:12px;
+	height:25px;
+	border:none;
+	color: #fff;
+	border-radius:4px;
+	background-color: #4267b2; 
+}
+.right{
+	float:;
+}
+h3{
+	font-size:16px;
+	margin-left:450px;
+	font-family: sans-serif;
+	color:#6666ff;
+}
+.search{
+	margin-top: 5px;
+	width: 700px;
+	margin-left:50px;
+	padding-left:10px;
+	text-align: left;
+	font-size: 10px;
+	font-weight: 700;
+	border-top:2px solid gainsboro;
+	border-bottom-width: thick solid lightgrey;
+	height:25px;
+	border-radius:4px;
+}
+.button{
+	position: fixed;
+	width:90px;
+	height:30px;
+	background-color:#4267b2;
+	margin-left:853px;
+	margin-top:-30px;
+	border-radius:4px;
+}
+.pad{
+	position: fixed;
+	margin-top:-128px;
+	margin-left:-180px;
+	width:600px;
+	height:400px;
+}
+.filter{
+	font-family: sans-serif;
+	font-size:12px;
+	color: #fff;
+	margin-top:10px;
+	margin-left:40px;
+}
+.wrapper{
+	font-family: sans-serif;
+	display:block;
+	width:300px;
+	height:100px;
+	background:#4267b2;
+	margin:20px 30px;
+	border-radius: 5px;
+	padding-top: 10px;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.badge{
+	background-color: darkorange;
+	width:125px;
+	height: 20px;
+	padding: 5px 2px 5px 2px;
+	border-radius:5px;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 500px;
+}
+.image{
+	width:750px;
+	height:750px;
+}
+p{
+	color: #fff;
+	font-size:14px;
+}
+.one-one{
+	width:300px;
+	height:100px;
+	margin-left:0;
+	display:block;
+	float: left;
+}
+.one-one badge{
+	width:130px;
+	margin-left:-20px;
+	margin-top:-20px;
+	height:20px;
+	
+}
+.one-one .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.one-one p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.one-two{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:530px;
+	top:105px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.one-two badge{
+	width:130px;
+	position: absolute;
+	left:;
+	top:;
+}
+.one-two .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.one-two p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.one-three{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:850px;
+	top:105px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.one-three .badge1{
+	background-color: darkorange;
+	position: absolute;
+	width:150px;
+	height:20px;
+	left:0;
+	top:8px;
+	padding: 5px;
+	padding-right:-20px;
+	border-radius:5px;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 500px;
+}
+.one-three .image{
+	margin-top:-250px;
+	margin-left: -120px;
+}
+.one-three p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.two-one{
+	width:300px;
+	height:100px;
+	margin-left:0;
+	margin-top:20px;
+	display:block;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 500px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+	float: left;
+}
+.two-one badge{
+	width:130px;
+	margin-left:-20px;
+	margin-top:-200px;
+	height:20px;
+	
+}
+.two-one .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.two-one p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.two-two{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:530px;
+	top:235px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.two-two badge{
+	width:130px;
+	position: absolute;
+	left:;
+	top:;
+}
+.two-two .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.two-two p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.two-three{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:850px;
+	top:235px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.two-three badge{
+	width:130px;
+	position: absolute;
+	left:;
+	top:;
+}
+.two-three .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.two-three p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.three-one{
+	width:300px;
+	height:100px;
+	margin-left:0;
+	margin-top:20px;
+	display:block;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 500px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+	float: left;
+}
+.three-one badge{
+	width:130px;
+	margin-left:-20px;
+	margin-top:-200px;
+	height:20px;
+	
+}
+.three-one .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.three-one p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.three-two{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:530px;
+	top:365px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.three-two badge{
+	width:130px;
+	position: absolute;
+	left:;
+	top:;
+}
+.three-two .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.three-two p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.three-three{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:850px;
+	top:365px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.three-three badge{
+	width:130px;
+	position: absolute;
+	left:;
+	top:;
+}
+.three-three .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.three-three p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.four-one{
+	width:300px;
+	height:100px;
+	margin-left:0;
+	margin-top:20px;
+	display:block;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 500px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+	float: left;
+}
+.four-one badge{
+	width:130px;
+	margin-left:-20px;
+	margin-top:-200px;
+	height:20px;
+	
+}
+.four-one .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.four-one p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.four-two{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:530px;
+	top:495px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.four-two badge{
+	width:130px;
+	position: absolute;
+	left:;
+	top:;
+}
+.four-two .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.four-two p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.four-three{
+	width:300px;
+	height:100px;
+	position: absolute;
+	left:850px;
+	top:495px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color:#4267b2;
+	box-shadow:10px 10px 10px lightgrey;
+}
+.four-three badge{
+	width:130px;
+	position: absolute;
+	left:;
+	top:;
+}
+.four-three .image{
+	margin-top:-280px;
+	margin-left: -120px;
+}
+.four-three p{
+	margin-top: -460px;
+	margin-left:10px;
+}
+.two{
+	
+}
+/*.three{
+	
+}
+.four{
+	
+}*/
